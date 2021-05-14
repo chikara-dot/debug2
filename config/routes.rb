@@ -10,6 +10,6 @@
      resources :book_comments, only: [:create, :destroy]
     end
 
-    get 'search' => 'search#search', as: 'search'
+    get 'search' => 'searche#search', as: 'search'
 
  end
